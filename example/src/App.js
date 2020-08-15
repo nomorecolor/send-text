@@ -1,10 +1,9 @@
 import React from 'react'
 
-import { ExampleComponent } from '@nomorecolor/send-text'
-import '@nomorecolor/send-text/dist/index.css'
+import SendText from '@nomorecolor/send-text'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <SendText countryCode='63' onSubmit={() => {}} />
 }
 
 export default App

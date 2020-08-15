@@ -13,15 +13,12 @@ npm install --save @nomorecolor/send-text
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from '@nomorecolor/send-text'
-import '@nomorecolor/send-text/dist/index.css'
+import SendText from '@nomorecolor/send-text'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return <SendText countryCode='63' onSubmit={() => this.handleSubmit()} />
 }
 ```
 
